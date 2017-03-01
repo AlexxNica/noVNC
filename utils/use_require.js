@@ -25,6 +25,7 @@ const no_copy_files = new Set([
     // skip these -- they don't belong in the processed application
     path.join(vendor_path, 'sinon.js'),
     path.join(vendor_path, 'browser-es-module-loader'),
+    path.join(vendor_path, 'promise.js'),
 ]);
 
 const no_transform_files = new Set([
